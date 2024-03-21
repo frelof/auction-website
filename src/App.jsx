@@ -23,7 +23,7 @@ function App() {
 
   const Providers = ({ children }) => {
     return (
-      <ItemsProvider demo={demo}>
+      <ItemsProvider demo={false}>
         <ModalsProvider>{children}</ModalsProvider>
       </ItemsProvider>
     );
