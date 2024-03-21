@@ -6,7 +6,7 @@
   secondaryImage: lenovo
   currency: NOK
   amount: 1000
-  endTime: 2023-04-05T00:00:00+00:00
+  endTime: 2024-04-05T00:00:00+00:00
 
 - id: 1
   primaryImage: iphone14
@@ -16,4 +16,4 @@
   secondaryImage: iphone14
   currency: NOK
   amount: 500
-  endTime: 2023-04-05T00:00:00+00:00
+  endTime: 2024-04-05T00:00:00+00:00
