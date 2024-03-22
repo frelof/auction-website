@@ -17,13 +17,13 @@ import AdminPage from "./pages/Admin";
 import Footer from "./components/Footer";
 
 function App() {
-  const demo = true;
+  const demo = false;
 
   const { admin } = AutoSignIn();
 
   const Providers = ({ children }) => {
     return (
-      <ItemsProvider demo={false}>
+      <ItemsProvider demo={demo}>
         <ModalsProvider>{children}</ModalsProvider>
       </ItemsProvider>
     );
